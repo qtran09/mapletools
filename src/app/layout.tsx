@@ -27,7 +27,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className="main">
+          <div className="gradient" />
+        </div>
+        <main className="app">
+          {children}
+        </main>
       </body>
     </html>
   );
