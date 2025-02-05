@@ -4,10 +4,10 @@ import React from "react"
 
 const DailyTracker = () => {
     return (
-        <>        
+        <div className="w-full h-screen flex justify-center items-center bg-[#2E2E2E]">        
             <ArcaneTracker/>
             <SacredTracker/>
-        </>
+        </div>
     )
 }
 
